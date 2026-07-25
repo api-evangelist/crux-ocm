@@ -1,7 +1,30 @@
 aid: crux-ocm
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crux-ocm.png
 name: Crux OCM
-description: Crux OCM is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CruxOCM builds AI-powered automation software for industrial control-room
+  operations in the energy-infrastructure sector. Its Industrial Automation Hub
+  (IAH) delivers closed-loop automation on top of existing SCADA and DCS systems
+  to increase pipeline throughput, cut operating and energy costs, and improve
+  safety without replacing installed control infrastructure. The product family
+  includes pipeBOT, gatherBOT, draBOT, maxOPT, leanOPT, and powerOPT, supported
+  by a Deployment Manager, Log Analyser, and real-time Status Dashboard. Founded
+  by control-room engineers and operators (CEO Vicki Knott, co-founder Roger
+  Shirt) and headquartered in Calgary, Alberta, the company raised a $17M Series
+  A led by Microsoft's M12 and serves midstream operators including ONEOK, Delek
+  US, Enbridge, HF Sinclair, and Alliance Pipeline. It was surfaced as a
+  Techstars portfolio company and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/crux-ocm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Industrial Automation
+- Pipeline Operations
+- Energy
+- SCADA
+- Control Systems
+- Midstream
+- Industrial Control
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://cruxocm.com/
+- type: Support
+  url: https://cruxocm.zendesk.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://cruxocm.com/privacy-policy/
+- type: Security
+  url: https://cruxocm.com/security/
+- type: Compliance
+  url: https://cruxocm.com/security/
+- type: DomainSecurity
+  url: security/crux-ocm-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/crux-ocm-vulnerability-disclosure.yml
+- type: Conformance
+  url: conformance/crux-ocm-conformance.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

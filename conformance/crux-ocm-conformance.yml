@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://cruxocm.com/security/
+standards:
+- id: soc2
+  conforms: true
+  evidence: >-
+    Security page states the Information Security Program follows the criteria
+    set forth by the SOC 2 Framework (annual third-party penetration testing,
+    vulnerability scanning, access controls, incident response).
+  status: framework-aligned
+  url: https://cruxocm.com/security/
+- id: iso-27001
+  conforms: false
+- id: iec-62443
+  conforms: false
+- id: oauth2
+  conforms: false
+- id: rfc9457-problem-details
+  conforms: false
+notes: >-
+  CruxOCM is an industrial control-room automation vendor (SCADA/DCS closed-loop
+  automation) and does not publish a public API surface, so cross-cutting API
+  standards (OAuth2/OIDC, RFC 9457, pagination/idempotency) are not applicable.
+  The one published compliance posture is SOC 2 framework alignment.
